@@ -1,0 +1,818 @@
+.sienetitle{
+
+color: rgb(209, 31, 203);
+
+}
+
+.sienesubtitle{
+
+color: rgb(255, 255, 255);
+
+}
+
+.link-nav{
+
+color:rgb(255, 255, 255);
+text-decoration: none;
+
+}
+
+.link-nav:hover{
+
+color: rgb(231, 185, 33);
+text-decoration: none;
+
+}
+
+.link-categories{
+
+color:rgb(209, 31, 203);
+text-decoration: none;
+
+}
+
+.logo-image{
+
+width: 20%;
+
+}
+    
+.link-categories:hover{
+    
+color: rgb(118, 10, 114);
+text-decoration: none;
+
+}
+
+.link-important{
+
+color: rgb(0, 0, 0);
+text-decoration: none;
+        
+}
+        
+.link-important:hover{
+        
+color: rgb(118, 10, 114);
+text-decoration: none;
+        
+}
+
+.navbg{
+
+background-color: rgb(14, 8, 12);
+
+}
+
+.page-border{
+
+    background-color: rgb(14, 8, 12);
+    height: 100%;
+    width: 10%;
+    margin-left: 90%;
+    
+}
+
+.bodycolor{
+
+background-color: white;
+
+}
+
+.hr-categories{
+
+margin-top: 5px;
+margin-bottom: 10px;
+
+}
+
+.hr-title{
+
+margin-bottom: 10px;
+
+}
+
+.categories-text{
+
+    margin-top: -15px;
+    font-family: 'Russo One', sans-serif;
+    font-weight: bold;
+    font-size: 3rem; 
+}
+
+/*SELECT FORMULÁRIO*/
+.container-form {
+    display: flex;
+  }
+
+  .row {
+    flex-basis: 50%;
+  }
+
+  .row > select {
+    width: 61%;
+    min-width: 30px;
+  }
+
+/*----------------*/
+
+.message-input{
+
+    width:392px; 
+    height:100px;
+    
+}
+
+.message-input-text{
+
+    top: -50px;
+
+}
+
+.final-text{
+
+    padding-left: 5%;
+    margin-right: 5%;
+
+}
+
+.aboutUs-text{
+
+    padding-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+
+}
+
+.privacy-text{
+
+    padding-left: 16%;
+    margin-right: 16%;
+    align: justify; 
+
+}
+
+.final-button{
+
+    color: black;
+    text-decoration-color: black;
+
+}
+
+.final-button:hover{
+
+    color: rgb(255, 196, 0);
+    text-decoration-color: rgb(0, 0, 0);
+
+}
+
+.banner-image-home {
+    width: 100%;
+    height: 100%;
+
+}
+
+.banner-image-cardapio {
+    width: 95%;
+    height: 280px;
+    border-radius: 7px;
+
+}
+
+.banner-image-contato {
+    width: 95%;
+    height: 280px;
+    border-radius: 7px;
+
+}
+
+.banner-aboutUs-OurBussines{
+
+    margin-top: -1000px;
+    width: 70%;
+    height: 225px;
+    border-radius: 7px;
+
+}
+
+.under-banner-aboutUs-OurBussines{
+
+    width: 85%;
+    height: 500px;
+    border-radius: 7px;
+
+}
+
+.title-banner-OurBussines{
+    margin-top: -230px;
+    margin-left: 300px;
+    margin-right: 300px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.text-banner-OurBussines{
+    margin-top: -210px;
+    margin-left: 300px;
+    margin-right: 300px;
+    color: #fff;
+}
+
+.link-oportunidades{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.link-oportunidades:hover{
+    color: black;
+    text-decoration-color: black;
+    text-decoration: underline;
+}
+
+.under-banner-image-cardapio{
+
+    width: 95%;
+    height: 60px;
+    margin-top: 15px;
+}
+
+.dishes-options-buttons{
+
+    width: 100%;
+
+}
+
+.dishes-images{
+
+    border: 5px;
+    border-style: double;
+    border-color: black;
+    border-radius: 8px;
+
+}
+
+.popup-image{
+
+    border: 5px;
+    border-style: double;
+    border-color: black;
+    border-radius: 8px;
+    margin-top: 90px;
+    margin-left: 25px;
+
+}
+
+.popup-text-title{
+
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Russo One', sans-serif;
+    
+}
+
+.popup-text{
+
+    margin-top: 90px;
+    margin-right: 25px;
+    font-weight: bold;    
+    font-family: 'Russo One', sans-serif;
+
+}
+
+.popup-text-price1{
+
+    height: 50%;
+    margin-top: 50px;
+    margin-right: 140px;
+    font-weight: bold;    
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.popup-text-price2{
+
+    height: 50%;
+    margin-top: -75px;
+    margin-right: -140px;
+    font-weight: bold;
+    font-size: 19.25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+
+/*--------------Buttons--------------*/
+
+/*-------------Main Course------------*/
+.popup-MainCourse1{
+
+    background: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 553%;
+    position: fixed;
+    top: 0;
+    display: none;
+    justify-content: center;
+    min-width: 200px;
+    
+}
+
+.popup-content-MainCourse1{
+
+    height: 500px;
+    width: 1000px;
+    background: rgb(231, 185, 100);
+    padding: 20px;
+    top: 250px;
+    border-radius: 5px;
+    border-style: double;
+    position: relative;
+    min-width: 200px;
+
+}
+
+.close-MainCourse1{
+
+    position: absolute;
+    top: -35px;
+    right: -35px;
+    background: #fff;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    box-shadow: 6px 6px 29px -4px rgba(0,0,0,0.75);
+    cursor: pointer;
+    min-width: 20px;
+
+}
+
+/*---------------------------*/
+
+.popup-MainCourse2{
+
+    background: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 553%;
+    position: fixed;
+    top: 0;
+    display: none;
+    justify-content: center;
+    min-width: 200px;
+    
+}
+
+.popup-content-MainCourse2{
+
+    height: 500px;
+    width: 1000px;
+    background: rgb(231, 185, 100);
+    padding: 20px;
+    top: 250px;
+    border-radius: 5px;
+    position: fixed;
+    min-width: 200px;
+
+}
+
+.close-MainCourse2{
+
+    position: absolute;
+    top: -35px;
+    right: -35px;
+    background: #fff;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    box-shadow: 6px 6px 29px -4px rgba(0,0,0,0.75);
+    cursor: pointer;
+
+}
+
+/*------------------------------*/
+
+.popup-MainCourse3{
+
+    background: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 553%;
+    position: fixed;
+    top: 0;
+    display: none;
+    justify-content: center;
+    min-width: 200px;
+    
+}
+
+.popup-content-MainCourse3{
+
+    height: 500px;
+    width: 1000px;
+    background: rgb(231, 185, 100);
+    padding: 20px;
+    top: 250px;
+    border-radius: 5px;
+    position: fixed;
+    min-width: 200px;
+
+}
+
+.close-MainCourse3{
+
+    position: absolute;
+    top: -35px;
+    right: -35px;
+    background: #fff;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    box-shadow: 6px 6px 29px -4px rgba(0,0,0,0.75);
+    cursor: pointer;
+
+}
+
+/*------------------------------*/
+
+/*-------------Appetizer------------*/
+.popup-Appetizer1{
+
+    background: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 553%;
+    position: fixed;
+    top: 0;
+    display: none;
+    justify-content: center;
+    min-width: 200px;
+    
+}
+
+.popup-content-Appetizer1{
+
+    height: 500px;
+    width: 1000px;
+    background: rgb(231, 185, 100);
+    padding: 20px;
+    top: 250px;
+    border-radius: 5px;
+    position: fixed;
+    min-width: 200px;
+
+}
+
+.close-Appetizer1{
+
+    position: absolute;
+    top: -35px;
+    right: -35px;
+    background: #fff;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    box-shadow: 6px 6px 29px -4px rgba(0,0,0,0.75);
+    cursor: pointer;
+
+}
+
+/*---------------------------*/
+
+.popup-Appetizer2{
+
+    background: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 553%;
+    position: fixed;
+    top: 0;
+    display: none;
+    justify-content: center;
+    min-width: 200px;
+    
+}
+
+.popup-content-Appetizer2{
+
+    height: 500px;
+    width: 1000px;
+    background: rgb(231, 185, 100);
+    padding: 20px;
+    top: 250px;
+    border-radius: 5px;
+    position: fixed;
+    min-width: 200px;
+
+}
+
+.close-Appetizer2{
+
+    position: absolute;
+    top: -35px;
+    right: -35px;
+    background: #fff;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    box-shadow: 6px 6px 29px -4px rgba(0,0,0,0.75);
+    cursor: pointer;
+
+}
+
+/*------------------------------*/
+
+.popup-Appetizer3{
+
+    background: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 553%;
+    position: fixed;
+    top: 0;
+    display: none;
+    justify-content: center;
+    min-width: 200px;
+    
+}
+
+.popup-content-Appetizer3{
+
+    height: 500px;
+    width: 1000px;
+    background: rgb(231, 185, 100);
+    padding: 20px;
+    top: 250px;
+    border-radius: 5px;
+    position: fixed;
+    min-width: 200px;
+
+}
+
+.close-Appetizer3{
+
+    position: absolute;
+    top: -35px;
+    right: -35px;
+    background: #fff;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    box-shadow: 6px 6px 29px -4px rgba(0,0,0,0.75);
+    cursor: pointer;
+
+}
+
+/*------------------------------*/
+
+/*-------------Drinks------------*/
+.popup-Drinks1{
+
+    background: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 553%;
+    position: fixed;
+    top: 0;
+    display: none;
+    justify-content: center;
+    min-width: 200px;
+    
+}
+
+.popup-content-Drinks1{
+
+    height: 500px;
+    width: 1000px;
+    background: rgb(231, 185, 100);
+    padding: 20px;
+    top: 250px;
+    border-radius: 5px;
+    position: fixed;
+    min-width: 200px;
+
+}
+
+.close-Drinks1{
+
+    position: absolute;
+    top: -35px;
+    right: -35px;
+    background: #fff;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    box-shadow: 6px 6px 29px -4px rgba(0,0,0,0.75);
+    cursor: pointer;
+
+}
+
+/*---------------------------*/
+
+.popup-Drinks2{
+
+    background: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 553%;
+    position: fixed;
+    top: 0;
+    display: none;
+    justify-content: center;
+    min-width: 200px;
+    
+}
+
+.popup-content-Drinks2{
+
+    height: 500px;
+    width: 1000px;
+    background: rgb(231, 185, 100);
+    padding: 20px;
+    top: 250px;
+    border-radius: 5px;
+    position: fixed;
+    min-width: 200px;
+
+}
+
+.close-Drinks2{
+
+    position: absolute;
+    top: -35px;
+    right: -35px;
+    background: #fff;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    box-shadow: 6px 6px 29px -4px rgba(0,0,0,0.75);
+    cursor: pointer;
+
+}
+
+/*------------------------------*/
+
+.popup-Drinks3{
+
+    background: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 553%;
+    position: fixed;
+    top: 0;
+    display: none;
+    justify-content: center;
+    min-width: 200px;
+    
+}
+
+.popup-content-Drinks3{
+
+    height: 500px;
+    width: 1000px;
+    background: rgb(231, 185, 100);
+    padding: 20px;
+    top: 250px;
+    border-radius: 5px;
+    position: fixed;
+    min-width: 200px;
+
+}
+
+.close-Drinks3{
+
+    position: absolute;
+    top: -35px;
+    right: -35px;
+    background: #fff;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    box-shadow: 6px 6px 29px -4px rgba(0,0,0,0.75);
+    cursor: pointer;
+
+}
+
+/*------------------------------*/
+
+/*-------------Dessert------------*/
+.popup-Dessert1{
+
+    background: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 553%;
+    position: fixed;
+    top: 0;
+    display: none;
+    justify-content: center;
+    min-width: 200px;
+    
+}
+
+.popup-content-Dessert1{
+
+    height: 500px;
+    width: 1000px;
+    background: rgb(231, 185, 100);
+    padding: 20px;
+    top: 250px;
+    border-radius: 5px;
+    position: fixed;
+    min-width: 200px;
+
+}
+
+.close-Dessert1{
+
+    position: absolute;
+    top: -35px;
+    right: -35px;
+    background: #fff;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    box-shadow: 6px 6px 29px -4px rgba(0,0,0,0.75);
+    cursor: pointer;
+
+}
+
+/*---------------------------*/
+
+.popup-Dessert2{
+
+    background: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 553%;
+    position: fixed;
+    top: 0;
+    display: none;
+    justify-content: center;
+    min-width: 200px;
+    
+}
+
+.popup-content-Dessert2{
+
+    height: 500px;
+    width: 1000px;
+    background: rgb(231, 185, 100);
+    padding: 20px;
+    top: 250px;
+    border-radius: 5px;
+    position: fixed;
+    min-width: 200px;
+
+}
+
+.close-Dessert2{
+
+    position: absolute;
+    top: -35px;
+    right: -35px;
+    background: #fff;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    box-shadow: 6px 6px 29px -4px rgba(0,0,0,0.75);
+    cursor: pointer;
+
+}
+
+/*------------------------------*/
+
+.popup-Dessert3{
+
+    background: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 553%;
+    position: fixed;
+    top: 0;
+    display: none;
+    justify-content: center;
+    min-width: 200px;
+    
+}
+
+.popup-content-Dessert3{
+
+    height: 500px;
+    width: 1000px;
+    background: rgb(231, 185, 100);
+    padding: 20px;
+    top: 250px;
+    border-radius: 5px;
+    position: fixed;
+    min-width: 200px;
+
+}
+
+.close-Dessert3{
+
+    position: absolute;
+    top: -35px;
+    right: -35px;
+    background: #fff;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    box-shadow: 6px 6px 29px -4px rgba(0,0,0,0.75);
+    cursor: pointer;
+
+}
+
+/*------------------------------*/

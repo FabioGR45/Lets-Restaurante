@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Success</title>
+
+    <script>
+        function createListItem(value){
+            const listItem = document.createElement("li");
+            listItem.textContent = value;
+            return listItem;
+        }
+
+        const list = document.querySelector('html');
+        const params = new URLSearchParams(window.location.search);
+
+        list.appendChild(createListItem(params.get('nome')))
+        list.appendChild(createListItem(params.get('telefone')))
+        list.appendChild(createListItem(params.get('email')))
+        list.appendChild(createListItem(params.get('assunto')))
+        list.appendChild(createListItem(params.get('localizacoes')))  
+
+    </script>
+
+</head>
+    <body>
+        <main>
+            <br>Informations saved successfully
+
+                <ul id="params"></ul>
+
+        </main>
+    </body>
+</html>
